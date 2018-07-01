@@ -1,0 +1,47 @@
+/* *********************************************************
+   Main css file : custom.css
+   
+   Author: Manasvi Pandey
+
+***********************************************************/
+
+@import url(http://fonts.googleapis.com/css?family=Alef:400,700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Amita:400,700);
+
+p {
+    font-family: 'Alef';
+    font-size: 18px;
+}
+
+#wrapper {
+    width: 100%;
+    margin-top: 50px;
+}
+
+#page-wrapper {
+    background: url(../img/back.png);
+    background-size: cover;
+    min-height: 600px;
+    padding: 15px 15px;
+}
+
+#page-inner-1 {
+    width: 100%;
+    margin: 10px 20px 10px 0px;
+    background-color: #fff;
+    padding: 30px;
+    min-height: 600px;
+}
+
+#page-inner-2 {
+    width: 100%;
+    margin: 50px 20px 10px 0px;
+    background-color: #fff;
+    padding: 30px;
+    min-height: 600px;
+}
+
+#nav-heading {
+    margin-top: 70px;
+}
