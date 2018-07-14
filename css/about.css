@@ -9541,30 +9541,30 @@ header a:active {
 }
 /* line 39, ../sass/partials/_main-nav.scss */
 header #header-logo-link {
-  -moz-transition-property: width, height, opacity;
-  -o-transition-property: width, height, opacity;
-  -webkit-transition-property: width, height, opacity;
-  transition-property: width, height, opacity;
-  -moz-transition-duration: 0.2s, 0.2s, 0.3s;
-  -o-transition-duration: 0.2s, 0.2s, 0.3s;
-  -webkit-transition-duration: 0.2s, 0.2s, 0.3s;
-  transition-duration: 0.2s, 0.2s, 0.3s;
-  -moz-transition-timing-function: ease;
-  -o-transition-timing-function: ease;
-  -webkit-transition-timing-function: ease;
-  transition-timing-function: ease;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
-  opacity: 0.5;
-  background-image: url('/wp-content/themes/invisiblechildren2.0/images/logo.png?1459020830');
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  -webkit-background-size: contain;
-  background-size: contain;
-  background-repeat: no-repeat;
-  float: left;
-  width: 133px;
-  height: 65px;
-  position: relative;
+    -moz-transition-property: width, height, opacity;
+    -o-transition-property: width, height, opacity;
+    -webkit-transition-property: width, height, opacity;
+    transition-property: width, height, opacity;
+    -moz-transition-duration: 0.2s, 0.2s, 0.3s;
+    -o-transition-duration: 0.2s, 0.2s, 0.3s;
+    -webkit-transition-duration: 0.2s, 0.2s, 0.3s;
+    transition-duration: 0.2s, 0.2s, 0.3s;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+    opacity: 0.5;
+    background-image: url(https://i.imgur.com/2iJ6EJN.png);
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    width: 133px;
+    height: 65px;
+    position: relative;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* line 39, ../sass/partials/_main-nav.scss */
