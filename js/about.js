@@ -10,7 +10,7 @@
              *******************************************/
             $('.video-bg').videobackground({
                 videoSource: [
-                    ['videos/home-bg.mp4', 'video/mp4']
+                    ['https://streamable.com/s/k8p5m/qhqoba', 'video/mp4']
                 ],
                 loop: true,
                 resize: false,
