@@ -11554,13 +11554,18 @@ p.white {
 }
 /* line 40, ../sass/about.scss */
 #section-home-heading .transparent-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-image: url(https://i.imgur.com/rZtdLpy.jpg);
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    background-size: cover;
+    padding: 250px 200px;
+    /* color: antiquewhite; */
 }
 /* line 50, ../sass/about.scss */
 #section-home-heading .container {
