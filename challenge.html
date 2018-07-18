@@ -13,6 +13,7 @@
     <meta property="fb:app_id" content="325146157507863" />
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900" rel="stylesheet" type="text/css">
                 
 <!-- This site is optimized with the Yoast WordPress SEO plugin v1.5.4.2 - https://yoast.com/wordpress/plugins/seo/ -->
 <!--meta name="robots" content="noodp,noydir"/>
@@ -50,7 +51,14 @@ img.emoji {
   background: none !important;
   padding: 0 !important;
 }
+
+#container1 {
+  margin: 20px;
+  width: 200px;
+  height: 100px;
+}
 </style>
+        
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel='stylesheet' id='select2-css'  href='css/select2.css' type='text/css' media='all' />
 <link rel='stylesheet' id='select2-bootstrap-css'  href='css/select2-bootstrap.css' type='text/css' media='all' />
@@ -173,22 +181,7 @@ src="https://www.facebook.com/tr?id=381357982243876&ev=PageView&noscript=1"
             Our Model
             <span class="subheader"></span>
           </h5>
-          <p>Ed Justice Campaign is a first ever attempt to mobilize people from all strata for working together to strengthen the efforts of government in rejuvenating the state-run educational institutions. The campaign is a unique attempt by group of unpaid volunteers who intend to devote time as ‘Education Change Agents’.</p>
-          <p>The campaign has following unique feature:</p>
-          <p>- This is a people’s run campaign where volunteers are the leaders. It will work on the principle of ‘Individual Social Responsibility’ and generate ‘Emotional Resources’ to sustain the campaign</p>
-          <p>- Funding will not be mobilized to run the campaign such as for salaries, travel etc. for the volunteers, team members. However, the campaign will establish direct connection between various needs and interested donors/ supporters.</p>
-          <p>- The campaign will run on the principle of collective leadership where getting the activities done will be a priority.</p>
-          <p>- Volunteers will be supporting the campaign as idea generator, implementers on the ground by giving about three hours a week and supporters who are helping with making connections with right people and resources.</p>
-          <p>- The campaign demands only few hours of commitment from each volunteer every month and thus each volunteer can freely pursue his/her primary work</p>
-          <p>- Each volunteer will bring unique expertise and energy to strengthen the campaign</p>
-          <p>- The problems in the educational institutions will be identified and addressed locally</p>
-          <p>- The activities of the campaign are easily replicable and scalable in other districts of Bihar and eventually in other states</p>
-          <p>- The campaign will run on the principle of mobilizing people’s push on both ‘demand’ and ‘supply’ side of state education, mainly at secondary, higher secondary and at the college level.</p>
-          <p>- The Campaign will remain committed to strengthen the efforts of government and will work together. It will propagate the concept of ‘four-pillars’ for state education: students; parents; the government and; the society. The movement will work as a platform to facilitate collaboration among various stakeholders.</p>
-
-          <center><h5>IDEATION AND IMPLEMENTATION</h5>
-          <img src="img/modal2.png" height="80%" width="80%" /></center>
-          <center><h5>IMPLEMENTATION FLOW</h5><img src="img/model1.png" height="80%" width="80%" /></center><br><br>
+          <div id="container1"></div>
         </div>
       </div>
     </div>
@@ -432,7 +425,39 @@ src="https://www.facebook.com/tr?id=381357982243876&ev=PageView&noscript=1"
   _stq.push([ 'view', {v:'ext',j:'1:3.7.2',blog:'63839055',post:'4',tz:'-4',srv:'invisiblechildren.com'} ]);
   _stq.push([ 'clickTrackerInit', '63839055', '4' ]);
 </script>
-        
+    <script>
+    var bar = new ProgressBar.SemiCircle(container, {
+      strokeWidth: 6,
+      color: '#FFEA82',
+      trailColor: '#eee',
+      trailWidth: 1,
+      easing: 'easeInOut',
+      duration: 1400,
+      svgStyle: null,
+      text: {
+        value: '',
+        alignToBottom: false
+      },
+      from: {color: '#FFEA82'},
+      to: {color: '#ED6A5A'},
+      // Set default step function for all animate calls
+      step: (state, bar) => {
+        bar.path.setAttribute('stroke', state.color);
+        var value = Math.round(bar.value() * 100);
+        if (value === 0) {
+          bar.setText('');
+        } else {
+          bar.setText(value);
+        }
+
+        bar.text.style.color = state.color;
+      }
+    });
+        bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
+        bar.text.style.fontSize = '2rem';
+
+        bar.animate(0.9);  // Number from 0.0 to 1.0
+    </script>
         <!-- BEGIN GOOGLE ANALYTICS CODE -->
         <script type='text/javascript'>
             var _gaq = _gaq || [];
