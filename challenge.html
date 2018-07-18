@@ -65,12 +65,12 @@ img.emoji {
 		CIRCLE PROGRESS BAR
 	======================*/
 
-	.progressbar {
+	.progressbar1 {
 		display: inline-block;
 		width: 100px;
 		margin: 25px;
 	}
-	.circle {
+	.circle1 {
 		width: 180px;
 		height: 180px;
 		margin: 0 auto;
@@ -79,7 +79,7 @@ img.emoji {
 		position: relative;
 		text-align: center;
 	}
-	.circle:after {
+	.circle1:after {
 	    width: 120px;
 		height: 120px;
 		content: "";
@@ -91,13 +91,13 @@ img.emoji {
 		left: 30px;
 	}
 	
-	.circle canvas {
+	.circle1 canvas {
 		vertical-align: middle;
 		border: 2px solid #fb4f14;
 		border-radius: 50%;
 	}
 	
-	.circle div {
+	.circle1 div {
 		position: absolute;
 		top: 50%;
 		left: 50%;
@@ -108,12 +108,12 @@ img.emoji {
 		font-size: 31px;
 		
 	}
-	.circle strong i {
+	.circle1 strong i {
 		font-style: normal;
 		font-size: 0.6em;
 		font-weight: normal;
 	}
-	.circle span {
+	.circle1 span {
 		display: block;
 		color: white;
 		margin-top: 12px;
@@ -243,8 +243,8 @@ src="https://www.facebook.com/tr?id=381357982243876&ev=PageView&noscript=1"
             Our Model
             <span class="subheader"></span>
           </h5>
-          <div class="progressbar" data-animate="false">
-							<div class="circle" data-percent="90">
+          <div class="progressbar1" data-animate="false">
+							<div class="circle1" data-percent="90">
 								<div></div>
 								
 							</div>
@@ -496,10 +496,10 @@ src="https://www.facebook.com/tr?id=381357982243876&ev=PageView&noscript=1"
     <script>
     $(document).ready(function ($) {
 		function animateElements() {
-			$('.progressbar').each(function () {
+			$('.progressbar1').each(function () {
 				var elementPos = $(this).offset().top;
 				var topOfWindow = $(window).scrollTop();
-				var percent = $(this).find('.circle').attr('data-percent');
+				var percent = $(this).find('.circle1').attr('data-percent');
 				var percentage = parseInt(percent, 10) / parseInt(100, 10);
 				var animate = $(this).data('animate');
 				if (elementPos < topOfWindow + $(window).height() - 30 && !animate) {
