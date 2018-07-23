@@ -22,11 +22,15 @@
 /* Custom Edit */
 
 .intro-section {
-    background-color: #2b8ff7;
+    background-color: #51bfc4;
 }
 
 .col-md-8 {
-    background-color: #1290f9;
+    background-color: #0abec3;
+}
+
+.title1 {
+    color: #131313;
 }
 
 /* line 28, ../sass/partials/_fonts.scss */
