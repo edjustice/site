@@ -9640,13 +9640,13 @@ header #header-menu-link:after {
 }
 /* line 88, ../sass/partials/_main-nav.scss */
 .single-post header, header.with-bg {
-    background: #83b8b8;
+    background: #46b1a3;
     padding: 15px 45px;
 }
 /* line 94, ../sass/partials/_main-nav.scss */
 .single-post header:before, header.with-bg:before {
   content: '';
-    background: #83b8b8;
+    background: #4cb1a3;
     display: block;
     width: 20px;
     height: 100%;
