@@ -12,6 +12,14 @@
   font-weight: normal;
   font-style: normal;
 }
+
+/*Side menu*/
+.ps-container {
+    overflow: hidden !important;
+    background-color: #84b8b8;
+}
+
+
 /* line 28, ../sass/partials/_fonts.scss */
 [class^="ic-icon-"], [class*=" ic-icon-"] {
   font-family: 'ic-icons';
