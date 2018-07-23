@@ -10230,7 +10230,7 @@ section {
 }
 /* line 63, ../sass/partials/_core.scss */
 section.white {
-  background-color: #FFF;
+  background-color: #3c3a3a;
 }
 
 /* line 68, ../sass/partials/_core.scss */
@@ -11727,17 +11727,17 @@ p.white {
 *******************************************/
 /* line 166, ../sass/about.scss */
 #section-get-involved {
-  background: #f4f4f4;
-  color: #686868;
-  text-align: center;
-  padding: 100px 0 40px;
-  border-top: 1px solid #d7d7d7;
-  border-bottom: 1px solid #d7d7d7;
+      background: #3c3a3a;
+    color: #2d2d2d;
+    text-align: center;
+    padding: 100px 0 40px;
+    border-top: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
 }
 /* line 174, ../sass/about.scss */
 #section-get-involved .header {
-  color: #686868;
-  margin-bottom: 75px;
+  color: #d03838;
+    margin-bottom: 75px;
 }
 /* line 178, ../sass/about.scss */
 #section-get-involved .header .intro {
