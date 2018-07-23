@@ -19,6 +19,15 @@
     background-color: #84b8b8;
 }
 
+/* Custom Edit */
+
+.intro-section {
+    background-color: #2b8ff7;
+}
+
+.col-md-8 {
+    background-color: #1290f9;
+}
 
 /* line 28, ../sass/partials/_fonts.scss */
 [class^="ic-icon-"], [class*=" ic-icon-"] {
@@ -201,6 +210,7 @@ time, mark, audio, video {
   font: inherit;
   font-size: 100%;
   vertical-align: baseline;
+      color: #fff;
 }
 
 /* line 22, ../../../../../../.rvm/gems/ruby-1.9.2-p330/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
