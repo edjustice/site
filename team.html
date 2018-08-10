@@ -71,13 +71,20 @@ html {
   .column1 {
     width: 100%;
     display: block;
+      transition: transform .2s;
   }
 }
 
 .card1 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: transform .2s;
 }
 .card1:hover {
+    -ms-transform: scale(2.5); /* IE 9 */
+    -webkit-transform: scale(2.5); /* Safari 3-8 */
+    transform: scale(2.5); 
+}
+    .column1:hover {
     -ms-transform: scale(2.5); /* IE 9 */
     -webkit-transform: scale(2.5); /* Safari 3-8 */
     transform: scale(2.5); 
